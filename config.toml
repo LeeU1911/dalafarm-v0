@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "https://veggieviet.com/"
+baseurl = "https://leeu1911.github.io/dalafarm"
 languageCode = "en-us"
-title = "Veggie Viet"
+title = "DalaFarm"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -17,8 +17,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
+  name = "DalaFarm"
+  description = "DalaFarm, provides vegetables powder and garlic related products such as tomato powder, carrot powder, garlic oil, black garlic."
 
   # Link custom assets relative to /static
   custom_css = []
@@ -45,14 +45,14 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "Veggie Viet"
+    brand = "DalaFarm"
     # Optional logo as brand stored in img/
-    #logo = "logo.svg"
+    logo = "logo.jpg"
     services = "Products"
-    portfolio = "Products"
-    about = "About"
-    team = "Team"
-    contact = "Contact"
+    portfolio = "Sản phẩm"
+    about = "Về DalaFarm"
+    team = "Chúng tôi"
+    contact = "Liên hệ"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -65,23 +65,19 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-    [[menu.postpend]]
-      url = "http://dalahouse.com"
-      name = "Dalahouse"
-      weight = 10
-    [[menu.postpend]]
-      url = "http://toidenducha.com"
-      name = "Đức Hà"
-      weight = 10
+#    [[menu.postpend]]
+#      url = "http://toidenducha.com"
+#      name = "Đức Hà"
+#      weight = 10
 
 
   # Hero section
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Veggie Viet!"
-    subtitle = "It's nice to meet you"
-    buttonText = "Tell me more"
+    title = "Chào mừng đến DalaFarm!"
+    subtitle = "Rất vui được gặp bạn"
+    buttonText = "Xem sản phẩm"
 
 
   # Services section
@@ -117,48 +113,42 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Products"
-    subtitle = "Our organic products"
+    title = "Sản phẩm"
+    subtitle = "Danh sách sản phẩm của DalaFarm"
 
     [params.portfolio.modal]
-      client = "Brand"
-      category = "Price"
-      buttonText = "Close project"
+      client = "Thương hiệu"
+      category = "Giá"
+      buttonText = "Đóng lại"
 
 
     # About section
   [params.about]
     enable = true
-    title = "About"
-    subtitle = "How our journey started."
-    endpoint = "Be part<br>of our<br>story!"
+    title = "Về DalaFarm"
+    subtitle = "Hành trình của chúng tôi đã bắt đầu như thế nào."
+    endpoint = "Hãy đồng <br>hành cùng <br>DalaFarm!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "May 2015"
+      title = "Công ty Đức Hà được thành lập"
+      description = "Ms. Hà sáng lập ra công ty Đức Hà để sản xuất và kinh doanh tỏi đen cùng các sản phẩm về tỏi"
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "June 2015"
+      title = "Công ty Dalahouse được ra đời"
+      description = "Ms. Trâm sáng lập ra công ty Dalahouse với khao khát biến sản phẩm rau củ trở nên tiện lợi hơn cho những người bận rộn"
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "March 2017"
+      title = "Câu chuyện Dalafarm bắt đầu"
+      description = "Chia sẻ chung niềm đam mê về sản xuất và kinh doanh các sản phẩm Việt Nam chất lượng cao, Ms. Hà và Ms. Trâm đã hợp nhất 2 công ty Đức Hà và Dalahouse lại thành 1 công ty duy nhất mang tên DalaFarm. Cùng với 2 cộng sự khác - Ms. Thư và Mr. Vũ, chúng tôi cam kết mang những sản phẩm sạch, chất lượng cao đến với mọi người tiêu dùng!"
 
 
   # Team section
@@ -166,9 +156,9 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
-    subtitle = "Bright and smart faces"
-    description = "We're a team of people coming from different backgrounds with big ambition to bring the best of Vietnam to the world"
+    title = "Thành viên DalaFarm"
+    subtitle = "Những người trẻ năng động với tham vọng lớn"
+    description = "Chúng tôi là một nhóm những người trẻ đến từ các chuyên ngành khác nhau, nhưng chia sẻ chung 1 niềm đam mê lớn để mang những sản phẩm chất lượng tốt nhất của Việt Nam đến với người tiêu dùng trong và ngoài nước"
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -177,49 +167,44 @@ googleAnalytics = ""
       img = "ha.jpg"
       name = "Lê Thị Thu Hà"
       position = "Founder"
-      livesIn = "[Nha Trang, Việt Nam](#some-maps-url)"
+      livesIn = "Nha Trang, Việt Nam"
       scope = [
 
       ]
       # For bio markdown and even multiline strings are available.
-      bio = "She founded Duc Ha company"
+      bio = "Sáng lập nên công ty Đức Hà, nay là một phần của DalaFarm"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-facebook", "https://www.facebook.com/thuha47nt"]
       ]
 
     [[params.team.members]]
       img = "tram.jpg"
       name = "Nguyễn Huyền Trâm"
       position = "Founder"
-      bio = "She founded Dalahouse company"
+      livesIn = "Hồ Chí Minh, Việt Nam"
+      bio = "Sáng lập nên công ty Dalahouse, nay là một phần của DalaFarm"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-facebook", "https://www.facebook.com/profile.php?id=100000861713629"]
       ]
 
     [[params.team.members]]
       img = "thu.jpg"
-      name = "Võ Thanh Thư"
+      name = "Võ Thị Thanh Thư"
       position = "Co-founder"
-      bio = "She's amazing sale person"
+      livesIn = "Hồ Chí Minh, Việt Nam"
+      bio = "Trùm kinh doanh, đến từ Nestle Việt Nam"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-facebook", "https://www.facebook.com/thanh.thuvo.1"]
       ]
 
     [[params.team.members]]
       img = "vu.jpg"
       name = "Lê Tấn Vũ"
       position = "Co-founder"
-      bio = "Tech guy"
+      livesIn = "Hồ Chí Minh, Việt Nam"
+      bio = "Kỹ sư phần mềm"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-facebook", "https://www.facebook.com/LeeU14"]
       ]
 
   # Client section
@@ -252,9 +237,9 @@ googleAnalytics = ""
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
-    subtitle  = "Leave a message and we'll respond within an hour."
-    buttonText = "Send message"
+    title = "Liên hệ với chúng tôi"
+    subtitle  = "Hãy để lại 1 lời nhắn và chúng tôi sẽ liên lạc lại trong vòng 1 ngày."
+    buttonText = "Gửi tin nhắn"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -274,28 +259,28 @@ googleAnalytics = ""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "imleeu@gmail.com"
 
     # Success and error message overwrite for async contact form
-    #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
+    thanks = "Cám ơn tin nhắn tuyệt vời của bạn."
+    error = "Tin nhắn không gửi được. Vui lòng email cho chúng tôi tại contact@dalafarm.com.vn"
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
-      text = "Your Name *"
-      warning = "Please enter your name."
+      text = "Tên bạn *"
+      warning = "Vui lòng nhập tên."
 
     [params.contact.form.email]
-      text = "Your Email *"
-      warning = "Please enter your email address."
+      text = "Email của bạn *"
+      warning = "Vui lòng nhập địa chỉ email."
 
     [params.contact.form.phone]
-      text = "Your Phone *"
-      warning = "Please enter your phone number."
+      text = "Số điện thoại *"
+      warning = "Vui lòng nhập số điện thoại."
 
     [params.contact.form.message]
-      text = "Your Message *"
-      warning = "Please enter a message."
+      text = "Lời nhắn của bạn *"
+      warning = "Vui lòng nhập lời nhắn."
 
       # Add optional form fields to identify contact forms
       #[[params.contact.form.hidden]]
@@ -309,24 +294,8 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
-
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
+    copyright = "Bản quyền Apache License 2.0."
 
     [[params.footer.social]]
       icon = "fa-facebook"
-      link = "#"
-
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
-
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
-
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+      link = "https://www.facebook.com/dalafarm.com.vn/"
