@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://leeu1911.github.io/dalafarm"
+baseurl = "http://localhost:1313"
 languageCode = "en-us"
 title = "DalaFarm"
 theme = "hugo-agency-theme"
@@ -18,7 +18,7 @@ googleAnalytics = ""
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "DalaFarm"
-  description = "DalaFarm, provides vegetables powder and garlic related products such as tomato powder, carrot powder, garlic oil, black garlic."
+  description = "DalaFarm cung cấp các sản phẩm bột rau củ hỗ trợ bé ăn dặm dalababy, dầu tỏi, tỏi đen và các sản phẩm từ tỏi."
 
   # Link custom assets relative to /static
   custom_css = []
@@ -31,8 +31,8 @@ googleAnalytics = ""
 
   # 404 error customization
   [params.error404]
-    heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
+    heading = "Trang này không thể tìm thấy"
+    text = "Vui lòng trở về [trang chủ](/)"
 
   # Optional piwik tracking
   #[params.analytics.piwik]
@@ -47,7 +47,7 @@ googleAnalytics = ""
   [params.navigation]
     brand = "DalaFarm"
     # Optional logo as brand stored in img/
-    logo = "logo.jpg"
+#    logo = "logo.jpg"
     services = "Products"
     portfolio = "Sản phẩm"
     about = "Về DalaFarm"
