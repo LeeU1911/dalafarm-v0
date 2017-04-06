@@ -177,6 +177,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #C5F442;
+    font-size: 2.5em;
 }
 
 .navbar-default .navbar-brand:hover,
