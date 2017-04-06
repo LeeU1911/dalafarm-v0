@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://localhost:1313"
+baseurl = "https://leeu1911.github.io/dalafarm-v0"
 languageCode = "en-us"
 title = "DalaFarm"
 theme = "hugo-agency-theme"
@@ -133,19 +133,19 @@ googleAnalytics = ""
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
+      img = "toi-den-duc-ha.png"
       date = "May 2015"
       title = "Công ty Đức Hà được thành lập"
       description = "Ms. Hà sáng lập ra công ty Đức Hà để sản xuất và kinh doanh tỏi đen cùng các sản phẩm về tỏi"
 
     [[params.about.events]]
-      img = "2.jpg"
+      img = "dalahouse.jpg"
       date = "June 2015"
       title = "Công ty Dalahouse được ra đời"
       description = "Ms. Trâm sáng lập ra công ty Dalahouse với khao khát biến sản phẩm rau củ trở nên tiện lợi hơn cho những người bận rộn"
 
     [[params.about.events]]
-      img = "3.jpg"
+      img = "dalafarm.jpg"
       date = "March 2017"
       title = "Câu chuyện Dalafarm bắt đầu"
       description = "Chia sẻ chung niềm đam mê về sản xuất và kinh doanh các sản phẩm Việt Nam chất lượng cao, Ms. Hà và Ms. Trâm đã hợp nhất 2 công ty Đức Hà và Dalahouse lại thành 1 công ty duy nhất mang tên DalaFarm. Cùng với 2 cộng sự khác - Ms. Thư và Mr. Vũ, chúng tôi cam kết mang những sản phẩm sạch, chất lượng cao đến với mọi người tiêu dùng!"

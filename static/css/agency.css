@@ -280,7 +280,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #744D39;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -748,7 +748,7 @@ aside .heading {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: #744D39;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -850,7 +850,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
-    background-color: #222;
+    background-color: #744D39;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
