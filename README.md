@@ -20,4 +20,4 @@ Via our children companies:
 * Black Garlic Duc Ha: http://toidenducha.com
 * Dalahouse: http://dalahouse.com
 
-Email: imleeu@gmail.com
+Email: tom@dalafarm.com.vn
