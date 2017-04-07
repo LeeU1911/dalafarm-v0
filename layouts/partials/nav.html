@@ -14,12 +14,12 @@
           <span class="fa fa-phone fa-2x"></span>
         </a>
       {{ if .Site.Params.navigation.logo }}
-        <a class="navbar-brand page-scroll" href="{{ if .IsHome }}/#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}">
+        <a class="navbar-brand page-scroll" href="{{ if .IsHome }}#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}">
           {{ $url := printf "img/%s" .Site.Params.navigation.logo }}
           <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Site.Params.navigation.brand }}">
         </a>
       {{ else }}
-        <a class="navbar-brand page-scroll" href="{{ if .IsHome }}/#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}">
+        <a class="navbar-brand page-scroll" href="{{ if .IsHome }}#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}">
           {{ .Site.Params.navigation.brand }}
         </a>
       {{ end }}
@@ -69,7 +69,7 @@
         {{ end }}
 
         <li>
-          <a class="page-scroll" href="tel:0918241066" style="color: forestgreen">Gọi DalaFarm</a>
+          <a class="page-scroll" href="tel:0918241066" style="color: #C5F442">Gọi Ngay</a>
         </li>
 
         {{ range .Site.Menus.postpend }}

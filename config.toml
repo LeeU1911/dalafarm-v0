@@ -136,7 +136,7 @@ googleAnalytics = ""
       img = "toi-den-duc-ha.png"
       date = "May 2015"
       title = "Công ty Đức Hà được thành lập"
-      description = "Ms. Hà sáng lập ra công ty Đức Hà để sản xuất và kinh doanh tỏi đen cùng các sản phẩm về tỏi"
+      description = "Ms. Hà sáng lập ra công ty Đức Hà để sản xuất và kinh doanh các sản phẩm gia vị thảo dược, nổi bật là tỏi đen cùng các sản phẩm về tỏi"
 
     [[params.about.events]]
       img = "dalahouse.jpg"
@@ -172,7 +172,7 @@ googleAnalytics = ""
 
       ]
       # For bio markdown and even multiline strings are available.
-      bio = "Sáng lập nên công ty Đức Hà, nay là một phần của DalaFarm"
+#      bio = "Sáng lập nên công ty Đức Hà, nay là một phần của DalaFarm"
       social = [
         ["fa-facebook", "https://www.facebook.com/thuha47nt"]
       ]
@@ -182,7 +182,7 @@ googleAnalytics = ""
       name = "Nguyễn Huyền Trâm"
       position = "Founder"
       livesIn = "Hồ Chí Minh, Việt Nam"
-      bio = "Sáng lập nên công ty Dalahouse, nay là một phần của DalaFarm"
+#      bio = "Sáng lập nên công ty Dalahouse, nay là một phần của DalaFarm"
       social = [
         ["fa-facebook", "https://www.facebook.com/profile.php?id=100000861713629"]
       ]
@@ -192,7 +192,7 @@ googleAnalytics = ""
       name = "Võ Thị Thanh Thư"
       position = "Co-founder"
       livesIn = "Hồ Chí Minh, Việt Nam"
-      bio = "Trùm kinh doanh, đến từ Nestle Việt Nam"
+#      bio = "Trùm kinh doanh, đến từ Nestle Việt Nam"
       social = [
         ["fa-facebook", "https://www.facebook.com/thanh.thuvo.1"]
       ]
@@ -202,7 +202,7 @@ googleAnalytics = ""
       name = "Lê Tấn Vũ"
       position = "Co-founder"
       livesIn = "Hồ Chí Minh, Việt Nam"
-      bio = "Kỹ sư phần mềm"
+#      bio = "Kỹ sư phần mềm"
       social = [
         ["fa-facebook", "https://www.facebook.com/LeeU14"]
       ]
