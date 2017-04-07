@@ -2,11 +2,11 @@
 We deliver the best of Vietnam to the world
 
 ## Our Products
-* Black Garlic
-* Vegetables powders (beetroot, tomatoes, pumpkin, etc.)
+* Detox vegetables powders (beetroot, tomatoes, pumpkin, etc.)
 * Dalababy
   * Vegetables powders
   * Garlic Oil
+* Black Garlic
 
 ## Why us
 - We commit to deliver high quality made-in-Vietnam products
