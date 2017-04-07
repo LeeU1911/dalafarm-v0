@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://leeu1911.github.io/dalafarm-v0"
+baseurl = "https://dalafarm.com.vn/"
 languageCode = "en-us"
 title = "DalaFarm"
 theme = "hugo-agency-theme"
