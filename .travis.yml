@@ -16,4 +16,4 @@ deploy:
   local-dir: public
   skip_cleanup: true
   on:
-    repo: leeu1911/dalafarm-v0
+    repo: LeeU1911/dalafarm-v0
