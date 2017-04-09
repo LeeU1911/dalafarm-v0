@@ -5,7 +5,7 @@ title = "DalaFarm"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-87063471-2"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
@@ -47,7 +47,7 @@ googleAnalytics = ""
   [params.navigation]
     brand = "DalaFarm"
     # Optional logo as brand stored in img/
-#    logo = "logo.jpg"
+#    logo = "logo.png"
     services = "Products"
     portfolio = "Sản phẩm"
     about = "Về DalaFarm"
@@ -75,9 +75,9 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Chào mừng đến DalaFarm!"
-    subtitle = "Rất vui được gặp bạn"
-    buttonText = "Xem sản phẩm"
+    title = "Chào mừng bạn ghé thăm!"
+    subtitle = "DalaFarm rất vui được gặp bạn"
+    buttonText = "Dạo 1 vòng nào"
 
 
   # Services section
@@ -114,8 +114,8 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Sản phẩm"
-    subtitle = "Danh sách sản phẩm của DalaFarm"
-
+    subtitle = "Dòng sản phẩm Detox và DalaBaby của DalaFarm sẽ lên kệ trong vài ngày tới!"
+    subscribleInputPlaceHolder = "Nhận email khi sản phẩm được ra mắt"
     [params.portfolio.modal]
       client = "Thương hiệu"
       category = "Giá"
@@ -134,18 +134,18 @@ googleAnalytics = ""
     # Replace them with your own.
     [[params.about.events]]
       img = "toi-den-duc-ha.png"
-      date = "May 2015"
+      date = "June 2015"
       title = "Công ty Đức Hà được thành lập"
       description = "Ms. Hà sáng lập ra công ty Đức Hà để sản xuất và kinh doanh các sản phẩm gia vị thảo dược, nổi bật là tỏi đen cùng các sản phẩm về tỏi"
 
     [[params.about.events]]
       img = "dalahouse.jpg"
-      date = "June 2015"
+      date = "Feb 2016"
       title = "Công ty Dalahouse được ra đời"
       description = "Ms. Trâm sáng lập ra công ty Dalahouse với khao khát biến sản phẩm rau củ trở nên tiện lợi hơn cho những người bận rộn"
 
     [[params.about.events]]
-      img = "dalafarm.jpg"
+      img = "dalafarm.png"
       date = "March 2017"
       title = "Câu chuyện Dalafarm bắt đầu"
       description = "Chia sẻ chung niềm đam mê về sản xuất và kinh doanh các sản phẩm Việt Nam chất lượng cao, Ms. Hà và Ms. Trâm đã hợp nhất 2 công ty Đức Hà và Dalahouse lại thành 1 công ty duy nhất mang tên DalaFarm. Cùng với 2 cộng sự khác - Ms. Thư và Mr. Vũ, chúng tôi cam kết mang những sản phẩm sạch, chất lượng cao đến với mọi người tiêu dùng!"
@@ -259,11 +259,11 @@ googleAnalytics = ""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "imleeu@gmail.com"
+    email = "info@dalafarm.com.vn"
 
     # Success and error message overwrite for async contact form
-    thanks = "Cám ơn tin nhắn tuyệt vời của bạn."
-    error = "Tin nhắn không gửi được. Vui lòng email cho chúng tôi tại contact@dalafarm.com.vn"
+    thanks = "Xin cám ơn tin nhắn của bạn. Chúng tôi sẽ trả lời trong vòng 1 ngày."
+    error = "Tin nhắn không gửi được. Vui lòng email cho chúng tôi tại info@dalafarm.com.vn"
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
@@ -283,13 +283,13 @@ googleAnalytics = ""
       warning = "Vui lòng nhập lời nhắn."
 
       # Add optional form fields to identify contact forms
-      #[[params.contact.form.hidden]]
-      #  name = "someID"
-      #  value = "example.com"
+      [[params.contact.form.hidden]]
+        name = "DalaFarm"
+        value = "dalafarm.com.vn"
       #
-      #[[params.contact.form.hidden]]
+      [[params.contact.form.hidden]]
       # Special values for name such as "page" and "site" will be autofilled
-      #  name = "page"
+        name = "site"
 
   # Footer section
   [params.footer]
