@@ -6,7 +6,7 @@ install:
   - sudo pip install Pygments
   - go get github.com/spf13/hugo
 script:
-  - hugo verion
+  - hugo version
   - ls
   - hugo
   - ls
