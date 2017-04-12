@@ -5,7 +5,12 @@ sudo: required
 install:
   - sudo pip install Pygments
   - go get github.com/spf13/hugo
-script: hugo
+script:
+  - hugo verion
+  - ls
+  - hugo
+  - ls
+  - ls public
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
