@@ -8,6 +8,10 @@ install:
 script:
   - hugo version
   - ls
+  - ls themes
+  - cd themes
+  - git clone https://github.com/digitalcraftsman/hugo-agency-theme.git
+  - cd ..
   - hugo
   - ls
   - ls public
